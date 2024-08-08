@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    background-color: rgb(212, 169, 176);
+    background-color: rgb(235, 196, 202);
  
 }
 
@@ -54,12 +54,16 @@ ul {
  
 
   #line{
-    background-color:rgb(233, 200, 206);
+    background-color:rgb(235, 196, 202);
     padding: 0.6rem;
     border-radius: 10px;
     margin: 0 auto;
-    color:rgb(233, 200, 206) ;
+    color:black;
     
+}
+
+.h2-p{
+    color: rgb(238, 118, 138);
 }
 
 h2{
