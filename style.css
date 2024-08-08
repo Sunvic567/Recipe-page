@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: rgb(212, 169, 176);
+ 
+}
+
+ 
+
+.container{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    max-width: 500px;
+   padding: 1rem;
+   margin: 40px auto;
+ 
+
+}
+img{
+    border-radius: 8px;
+}
+ /* Style the unordered list */
+ul {
+    list-style-type: none; /* or any other list style type */
+
+}
+  
+  /* Style the bullet points */
+  ul li::before {
+    content: "•"; /* Use the bullet point character */
+    color:rgb(235, 128, 145); /* Set the color of the bullet points */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    margin-left: -1em; /* Move the bullet points back to the left */
+  }
+
+  ol{
+    list-style-type:none;
+  }
+
+  ol li::before {
+    content: counter(list-item); /* Use the built-in counter */
+    color:rgb(238, 123, 140); /* Set the color of the bullet points */
+    display: inline-block;
+    width: 1.5em; /* Adjust the width as needed */
+    margin-left: -2.5em; /* Move the bullet points back to the left */
+    text-align: center; /* Align the numbers to the right */
+    margin-right: 0.6em; /* Add some spacing between the number and the text */
+  }
+ 
+  
+   
+ 
+
+  #line{
+    background-color:rgb(233, 200, 206);
+    padding: 0.6rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: black;
+    
+}
+
+h2{
+    color: rgb(170, 110, 120);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+}
+ 
+
+td {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    font-weight: normal;
+}
+
+td:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Remove the border from the header row */
+thead tr {
+    border-bottom: none;
+}
+
+/* Add some space above the table */
+table {
+    margin-top: 20px;
+}
